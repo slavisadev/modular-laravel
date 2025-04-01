@@ -1,0 +1,21 @@
+{
+    "name": "app/blog",
+    "description": "Blog package for Laravel application",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\Blog\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "App\\Blog\\BlogServiceProvider"
+            ]
+        }
+    }
+}
